@@ -21,6 +21,14 @@ body {
   font-size: 22px;
 }
 
+#confirm-button, #cancel-button{
+  font-size: 20px;
+}
+
+#cancel-button{
+  background-color: white;
+}
+
 .confirm {
   background: green;
   color: white;
