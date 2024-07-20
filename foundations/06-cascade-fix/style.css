@@ -17,11 +17,13 @@ body {
   font-weight: 800;
 }
 
+/* priority by position, last defined */
 .para {
   font-size: 26px;
   font-weight: 1000;
 }
 
+/* priority by specificity, id selectors */
 #confirm-button, #cancel-button{
   font-size: 20px;
 }
@@ -48,6 +50,8 @@ div.text {
   font-weight: 100;
 }
 
+/* .small-para priority by position, last defined */
+/* div.text.child priority by specificity, multiple selectors */
 .small-para, div.text.child{
   font-size: 16px;
   font-weight: 1000;
